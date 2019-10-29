@@ -1,6 +1,6 @@
 ---
 # SLURM version to install (in case of RH systems)
-slurm_version: slurm-19.05.3-2
+slurm_version: 19.05.3-2
 # Type of node to install: front or wn
 slurm_type_of_node: front
 # Name of the SLURM server

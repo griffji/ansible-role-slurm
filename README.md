@@ -1,7 +1,7 @@
 SLURM cluster Role 
 =======================
 
-Install SLURM cluster [1]. This role has been specifically developed to be used in the INDIGO project.
+Install SLURM cluster [1]. 
 
 Role Variables
 --------------
@@ -36,7 +36,7 @@ The variables that can be passed to this role and a brief description about them
 	slurm_user: slurm
 	slurm_uid: "1994"
 	# Password used to derive a munge key for authentication between the server and the workers
-	slurm_password: hfe1q4ujaucsu913
+	slurm_password: Q[kG82*he"*_VeF#
 	# Default user for munge
 	munge_user: munge
 	munge_uid: "1995"
@@ -44,7 +44,7 @@ The variables that can be passed to this role and a brief description about them
 Example Playbook
 ----------------
 
-This an example of how to install a Torque/PBS cluster:
+This an example of how to install a Slurm cluster:
 
     - hosts: server
       roles:
